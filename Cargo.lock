@@ -990,7 +990,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ignorant"
+name = "ignorant-rs"
 version = "0.1.0"
 dependencies = [
  "anyhow",
