@@ -1,3 +1,4 @@
+
 # Ignorant
 
 [![Crates.io](https://img.shields.io/crates/v/ignorant.svg)](https://crates.io/crates/ignorant)
@@ -11,15 +12,6 @@ Ignorant allows you to check if a phone number is associated with accounts on va
 **⚠️ Important**: This tool does not alert the target phone number and is designed for defensive security purposes and OSINT research.
 
 ![Demo](https://github.com/megadose/gif-demo/raw/master/ignorant-demo.gif)
-
-## ✨ Features
-
-- 🚀 **Fast & Concurrent**: Async checking across all platforms simultaneously
-- 🔒 **Memory Safe**: Written in Rust with zero unsafe code
-- 📦 **Single Binary**: No runtime dependencies, easy deployment
-- 🎨 **Rich CLI**: Colored output, progress bars, and comprehensive options
-- 🧪 **Well Tested**: Comprehensive test suite with 19+ tests
-- 🔧 **Cross Platform**: Works on Linux, macOS, and Windows
 
 ### From Crates.io
 ```bash
@@ -76,14 +68,14 @@ ignorant 49 1234567890 --timeout 30
 
 The tool outputs results in a clear, color-coded format:
 - 🟢 **[+]** Phone number found on platform
-- 🟣 **[-]** Phone number not found on platform  
+- 🟣 **[-]** Phone number not found on platform
 - 🔴 **[x]** Rate limited or error occurred
 
 Each result includes:
 ```json
 {
   "name": "instagram",
-  "domain": "instagram.com", 
+  "domain": "instagram.com",
   "method": "other",
   "frequent_rate_limit": false,
   "rate_limit": false,
